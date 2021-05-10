@@ -1,4 +1,4 @@
-class Abel{
+class Mkulima{
     constructor(farms,products,orders,vendors) {
         this.farms=[];
         this.products=[];
@@ -76,7 +76,7 @@ class Abel{
   
  }
 
-let farm=new Abel(1223,"UGANDA","Marie","250781849006","ZAMBIA")
+let farm=new Mkulima (1223,"UGANDA","Marie","250781849006","ZAMBIA")
 console.log(farm.addFarm(18767,"zimbabwe","Louise","250786694438","Kigali"));
 console.log(farm.removeFarm(19999));
 console.log(farm.updateFarm(1212,"Kagera","Marie","250784567657","RWANDA"));
